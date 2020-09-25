@@ -2,28 +2,26 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Button, Navbar, Nav, NavDropdown } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const NavBar_ = (props) => {
   return (
-    <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
-      <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    <Navbar  className="color-nav" collapseOnSelect expand="md" variant="dark">
+      <Link to="/">
+        <Navbar.Brand style={{ fontSize: 30, fontFamily: 'Audiowide' }}>TECHMAN</Navbar.Brand>
+      </Link>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-          <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-          </NavDropdown>
+          <Link to="/blogs">
+            <Nav.Link href="/blogs" style={{ fontFamily: 'Audiowide' }}>Blogs</Nav.Link>
+          </Link>
+          <Nav.Link style={{ fontFamily: 'Audiowide' }}>Tutorials</Nav.Link>
         </Nav>
         <Nav>
-          <Nav.Link href="#deets">More deets</Nav.Link>
-          <Nav.Link eventKey={2} href="#memes">
-            Dank memes
+          <Nav.Link style={{ fontFamily: 'Audiowide' }} >Contact Me</Nav.Link>
+          <Nav.Link style={{ fontFamily: 'Audiowide' }} eventKey={2} >
+            Login
       </Nav.Link>
         </Nav>
       </Navbar.Collapse>

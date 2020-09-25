@@ -1,12 +1,36 @@
 body {
   margin: 0;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+@font-face{
+  font-family: 'Audiowide';
+  src: local('Audiowide'), url('./Assets/Fonts/Audiowide-Regular.ttf');
+}
+@font-face{
+  font-family: 'PT-Bold';
+  src: local('PT-Bold'), url('./Assets/Fonts/PTSans-Bold.ttf');
+}
+@font-face{
+  font-family: 'PT-Italic';
+  src: local('PT-Italic'), url('./Assets/Fonts/PTSans-Italic.ttf');
+}
+@font-face{
+  font-family: 'PT-BoldItalic';
+  src: local('PT-BoldItalic'), url('./Assets/Fonts/PTSans-BoldItalic.ttf');
+}
+@font-face{
+  font-family: 'PT';
+  src: local('PT'), url('./Assets/Fonts/PTSans-Regular.ttf');
+}
+@font-face{
+  font-family: 'quick';
+  src: local('quick'), url('./Assets/Fonts/quick.ttf');
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

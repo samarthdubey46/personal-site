@@ -1,0 +1,14 @@
+#home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: black;
+}
+.logo-div{
+    width: 50vh;
+    height: 50vh;
+    /* background-color: red; */
+    margin-top: 1cm;
+}
