@@ -6,9 +6,18 @@
     /* justify-content: center; */
     background-color: black;
 }
-.logo-div{
-    width: 50vh;
-    height: 50vh;
-    /* background-color: red; */
-    margin-top: 1cm;
+
+.logo-bottom {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    /* align-items: stretch; */
+    justify-content: space-around;
+    background-color: black;
+}
+.about{
+    width: 100vh;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
 }
