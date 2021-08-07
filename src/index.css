@@ -12,6 +12,10 @@ body {
   src: local('Audiowide'), url('./Assets/Fonts/Audiowide-Regular.ttf');
 }
 @font-face{
+  font-family: 'PlayfairDisplay';
+  src: local('PlayfairDisplay'), url('./Assets/Fonts/PlayfairDisplay-VariableFont_wght.ttf');
+}
+@font-face{
   font-family: 'PT-Bold';
   src: local('PT-Bold'), url('./Assets/Fonts/PTSans-Bold.ttf');
 }

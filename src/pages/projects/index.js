@@ -2,9 +2,9 @@ import React from 'react'
 import Template from '../template'
 import Data, { Langauges } from './data'
 
-const Blogs = () => {
+const Projects = () => {
     return (
         <Template data={Data} options={Langauges}/>
     )
 }
-export default Blogs
+export default Projects

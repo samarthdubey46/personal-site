@@ -1,0 +1,195 @@
+.Blog_Component_wrapper{
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+    /* margin: 0px 5px; */
+    margin-bottom: 1.5rem;
+    /* gap: 1rem; */
+    align-items: center;
+    border-radius: 2rem;
+    background-color: white;
+}
+
+.Blog_Component_text_wrapper{
+    margin-left: 1.3rem;
+    display: grid;
+    margin-top: .7rem;
+    grid-template-rows: .5fr 1fr .5fr;
+}
+.Blog_Component_title{
+    font-size: 20px;
+}
+.Blog_Component_desc{
+    font-size: 14px;
+    font-family: quick;
+}
+.Blog_Component_date{
+    margin-left: 3px;
+    /* font-size: 90px ; */
+}
+.Blog_Component_img_wrapper{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    align-items: center;
+}
+.Blog_Component_image{
+    width: 120px;
+    height: 120px;
+}
+@media(max-width:760px){
+    .Blog_Component_title{
+        font-size: 17px;
+    }
+    .Blog_Component_desc{
+        font-size: 12px;
+        font-family: quick;
+    }
+    .Blog_Component_date{
+        margin-left: 3px;
+        /* font-size: 90px ; */
+    }
+    .Blog_Component_img_wrapper{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 1rem;
+        align-items: center;
+    }
+    .Blog_Component_image{
+        width: 100px;
+        height: 100px;
+    }
+    .Blog_Component_wrapper{
+        display: grid;
+        grid-template-columns: 8fr 2fr;
+        /* margin: 0px 5px; */
+        margin-bottom: 1.5rem;
+        /* gap: 1rem; */
+        align-items: center;
+        border-radius: 2rem;
+        background-color: white;
+    }
+    .Blog_Component_text_wrapper{
+        margin-left: 1.3rem;
+        display: grid;
+        margin-top: .7rem;
+        grid-template-rows: .5fr 2fr .5fr;
+    }
+}
+@media (max-width:650px){
+    .Blog_Component_title{
+        font-size: 14px;
+    }
+    .Blog_Component_desc{
+        font-size: 12px;
+        font-family: quick;
+    }
+    .Blog_Component_date{
+        margin-left: 3px;
+        /* font-size: 90px ; */
+    }
+    .Blog_Component_img_wrapper{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 1rem;
+        align-items: center;
+    }
+    .Blog_Component_image{
+        width: 80px;
+        height: 80px;
+    }
+    .Blog_Component_wrapper{
+        display: grid;
+        grid-template-columns: 8fr 2fr;
+        /* margin: 0px 5px; */
+        margin-bottom: 1.5rem;
+        /* gap: 1rem; */
+        align-items: center;
+        border-radius: 2rem;
+        background-color: white;
+    }
+    .Blog_Component_text_wrapper{
+        margin-left: 1.3rem;
+        display: grid;
+        margin-top: .7rem;
+        grid-template-rows: .5fr 3fr .5fr;
+    }
+}
+@media (max-width:550px){
+    .Blog_Component_wrapper{
+        display: grid;
+        grid-template-columns: 6fr 2fr;
+        /* margin: 0px 5px; */
+        margin-bottom: 1.5rem;
+        /* gap: 1rem; */
+        align-items: center;
+        border-radius: 2rem;
+        background-color: white;
+    }
+    
+    .Blog_Component_text_wrapper{
+        margin-left: 1.3rem;
+        display: grid;
+        margin-top: .7rem;
+        grid-template-rows: .5fr 1fr .5fr;
+    }
+    .Blog_Component_title{
+        font-size: 18px;
+    }
+    .Blog_Component_desc{
+        font-size: 14px;
+        font-family: quick;
+    }
+    .Blog_Component_date{
+        margin-left: 3px;
+        /* font-size: 90px ; */
+    }
+    .Blog_Component_img_wrapper{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 1rem;
+        align-items: center;
+    }
+    .Blog_Component_image{
+        width: 100px;
+        height: 100px;
+    }   
+}
+@media (max-width:450px){
+    .Blog_Component_title{
+        font-size: 15px;
+    }
+    .Blog_Component_desc{
+        font-size: 10px;
+        font-family: quick;
+    }
+    .Blog_Component_date{
+        margin-left: 3px;
+        /* font-size: 90px ; */
+    }
+    .Blog_Component_img_wrapper{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 0rem;
+        align-items: center;
+    }
+    .Blog_Component_image{
+        width: 70px;
+        height: 70px;
+    }
+    .Blog_Component_wrapper{
+        display: grid;
+        grid-template-columns: 8fr 2fr;
+        /* margin: 0px 5px; */
+        margin-bottom: 1.5rem;
+        /* gap: 1rem; */
+        align-items: center;
+        border-radius: 2rem;
+        background-color: white;
+    }
+    .Blog_Component_text_wrapper{
+        margin-left: 1.3rem;
+        display: grid;
+        margin-top: .7rem;
+        grid-template-rows: .5fr 2fr .5fr;
+    }
+}

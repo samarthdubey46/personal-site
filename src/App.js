@@ -8,6 +8,7 @@ import './Assets/Fonts/PTSans-BoldItalic.ttf'
 import './Assets/Fonts/Audiowide-Regular.ttf'
 import './Assets/Fonts/PTSans-Bold.ttf'
 import './Assets/Fonts/PTSans-Italic.ttf'
+import './Assets/Fonts/PlayfairDisplay-VariableFont_wght.ttf'
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom'
 import Home from './pages/home';
 import Blogs from './pages/blogs';
@@ -20,6 +21,9 @@ const App = (props) => {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/blogs" component={Blogs} />
+          <Route path="/tutorials" component={Blogs} />
+          <Route path="/projects" component={Blogs} />
+        
         </Switch>
       </div>
     </Router>

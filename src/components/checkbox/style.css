@@ -1,0 +1,14 @@
+
+.clicked_checkbox{
+    width: 15px;
+    margin-right: 1rem;
+    height: 15px;
+}
+input[type=checkbox]:hover{
+    background-color: gray;
+}
+input:checked{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+}
